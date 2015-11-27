@@ -1,0 +1,80 @@
+body {
+  font: 16px serif;
+}
+
+.todo-operator {
+  margin: 5px;
+}
+
+.todo-operator .filter-button {
+  margin: 5px 0px 5px 5px;
+  height: 28px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.todo-operator .add-button {
+  margin: 5px 0px 5px 5px;
+  height: 28px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.todo-operator .add-input {
+  margin: 5px 0px;
+  height: 28px;
+  width: 197px;
+}
+
+.add-button:hover {
+  background-color: #DEB887
+}
+
+.filter-button:hover {
+  background-color: #DEB887
+}
+
+.todo-list-container {
+  padding-left: 0px;
+  margin: 5px;
+}
+
+.todo-list-container .content{
+  margin-left: 10px;
+  pointer-events: none;
+}
+
+.todo-list-container .id{
+  color: #6495ED;
+  margin-left: 2px;
+  pointer-events: none;
+}
+
+.todo-list-item {
+  width: 200px;
+  border: 1px solid  #D2691E;
+  margin-top: 5px;
+  cursor: pointer;
+  list-style: none;
+  padding: 10px;
+}
+
+.todo-list-item.uncomplete {
+  background-color: #f0f0f0;
+}
+
+.todo-operate {
+  height: 30px;
+  line-height: 30px;
+}
+
+.todo-operate .add-input{
+
+}
+
+.todo-operate .add-button{
+  margin-left: 5px;
+  cursor: pointer;
+}

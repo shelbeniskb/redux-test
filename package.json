@@ -1,0 +1,56 @@
+{
+  "name": "@ali/sunrise",
+  "description": "Javasrcipt library for SVG operations",
+  "version": "0.1.20",
+  "main": "watch/sunrise.js",
+  "author": "ling.dingl <ling.dingl@alibaba-inc.com>",
+  "config": {
+    "port": 3003
+  },
+  "keywords": [
+    "SVG",
+    "VML",
+    "Chart"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:oneui/sunrise.git"
+  },
+  "bugs": {
+    "url": "http://gitlab.alibaba-inc.com/oneui/sunrise/issues"
+  },
+  "devDependencies": {
+    "react": "^0.13.3",
+    "react-redux": "~2.1.2",
+    "react-router": "1.0.0-rc1",
+    "redux": "~3.0.0",
+    "redux-devtools": "~2.1.5",
+    "autoprefixer-loader": "~1.0.0",
+    "babel": "~5.8.23",
+    "babel-core": "~5.8.23",
+    "babel-eslint": "~4.1.1",
+    "babel-loader": "~5.3.2",
+    "del": "~0.1.3",
+    "eslint": "~1.3.1",
+    "eslint-config-airbnb": "0.0.8",
+    "eslint-loader": "~1.0.0",
+    "gulp": "~3.9.0",
+    "gulp-concat": "~2.4.2",
+    "gulp-cssmin": "~0.1.6",
+    "gulp-load-plugins": "~0.8.0",
+    "gulp-util": "~3.0.1",
+    "jshint-loader": "~0.8.0",
+    "webpack": "~1.4.13",
+    "webpack-dev-server": "~1.6.5",
+    "webpack-error-notification": "~0.1.3"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "license": "MIT"
+}
